@@ -584,8 +584,11 @@ nav .sm_ul {
   nav {
     padding-right: 20px;
     padding-left: 0;
-    position: relative;
-  }
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 999;
+}
 
   nav ul {
     display: none;
@@ -671,7 +674,7 @@ nav .sm_ul {
   }
 
   .health-section-text {
-    margin-top: 1rem;
+    margin-top: 4rem;
     padding: 20px;
 }
 
@@ -687,7 +690,7 @@ nav .sm_ul {
   width: 100%;
 }
 .health-here-image img {
-  width: 100%;
+  width: 95%;
   margin-top: 25px;
 }
 
