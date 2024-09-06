@@ -244,7 +244,7 @@ nav .sm_ul {
 .cov {
   background-image: url(./assets/Vector\ 22.png);
   background-repeat: no-repeat;
-  background-size: 108%;
+  background-size: 100.4%;
   margin-right: -50px;
 }
 
@@ -683,10 +683,10 @@ nav .sm_ul {
   font-size: 13px;
 }
 .health-section-image img {
-  width: 430px;
+  width: 400px;
 }
 .health-here-image img {
-  width: 390px;
+  width: 360px;
   margin-top: 25px;
 }
 
@@ -850,7 +850,7 @@ nav .sm_ul {
   margin-top: 1rem;
 }
 .download {
-  gap: 2rem;
+  gap: 1rem;
 }
 }
 /* MEDIA QUERY  */
