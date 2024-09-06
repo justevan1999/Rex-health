@@ -683,10 +683,10 @@ nav .sm_ul {
   font-size: 13px;
 }
 .health-section-image img {
-  width: 395px;
+  width: 430px;
 }
 .health-here-image img {
-  width: 360px;
+  width: 390px;
   margin-top: 25px;
 }
 
@@ -701,7 +701,8 @@ nav .sm_ul {
 }
 .health-here-text {
   margin-top: 1rem !important;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 14px;
 }
 
 .health-here-text h1 {
@@ -836,6 +837,20 @@ nav .sm_ul {
 .make-2 {
   gap: 26px;
   margin-top: 2rem;
+}
+
+.last {
+  margin-top: 1rem;
+  display: block;
+  text-align: center;
+}
+
+.last-icons {
+  justify-content: center;
+  margin-top: 1rem;
+}
+.download {
+  gap: 2rem;
 }
 }
 /* MEDIA QUERY  */
