@@ -44,5 +44,11 @@ document.addEventListener("DOMContentLoaded", () => {
       chevron.classList.add("up");
     }
   }
-  
+
+  document.querySelector('.made img').addEventListener('click', function() {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  });
   
