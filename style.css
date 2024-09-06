@@ -51,6 +51,11 @@ nav {
   justify-content: space-between;
   gap: 2rem;
   padding: 1.2rem 3rem;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  z-index: 99;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 nav .logos img:nth-child(2) {
@@ -171,6 +176,9 @@ nav .sm_ul {
 
 .health-section {
   display: flex;
+}
+.health-section-image {
+  margin-top: 3rem;
 }
 
 .health-here {
