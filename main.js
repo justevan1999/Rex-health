@@ -45,10 +45,37 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
+  
+
   document.querySelector('.made img').addEventListener('click', function() {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
     });
   });
+
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get reference to the h1 element
+    const textElement = document.getElementById('text');
+
+    // Array of texts to rotate through
+    let texts = ["Boundaries", "Stress", "Limit", "Hindrances", "Obstruction", "Borders"];
+    let index = 0;
+
+    // Function to swap between texts
+    function swapText() {
+        // Update the text in the DOM
+        textElement.textContent = texts[index];
+
+        // Increment the index, and reset if it goes beyond the array length
+        index = (index + 1) % texts.length;
+    }
+
+    // Use setInterval to change the text every 3 seconds
+    setInterval(swapText, 3000);
+});
+
+
+
+
   
