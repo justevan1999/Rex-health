@@ -577,6 +577,11 @@ nav .sm_ul {
   gap: 3rem;
 }
 
+.last {
+  margin-left: 3rem !important;
+  margin-right: 5rem !important;
+}
+
 /* NAV */
 
 /* MEDIA QUERY  */
@@ -853,6 +858,8 @@ nav .sm_ul {
 
 .last {
   margin-top: 1rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
   display: block;
   text-align: center;
 }
@@ -864,5 +871,10 @@ nav .sm_ul {
 .download {
   gap: 1rem;
 }
+
+.made img {
+  margin-left: 30px;
 }
+}
+
 /* MEDIA QUERY  */
