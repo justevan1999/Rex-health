@@ -684,10 +684,11 @@ nav .sm_ul {
   }
   .health-section-text h1 {
     font-size: 30px;
+    width: 100% !important;
   }
 
   .health-section-text {
-    margin-top: 7rem;
+    margin-top: 5rem;
     padding: 20px;
 }
 
@@ -700,7 +701,7 @@ nav .sm_ul {
   font-size: 13px;
 }
 .health-section-image img {
-  width: 100%;
+  width: 100% !important;
 }
 .health-here-image img {
   width: 95%;
