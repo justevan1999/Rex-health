@@ -982,9 +982,15 @@ nav .sm_ul {
   padding: 20px;
 }
 
+.copy-icon p {
+  text-align: center !important;
+  padding: 5px 0;
+}
+
 .make {
   gap: 26px;
   margin-top: 1rem;
+  justify-content: center;
 }
 
 .make-2 {
