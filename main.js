@@ -44,7 +44,7 @@ function toggleAnswer(element) {
 
 const textElement = document.getElementById('text');
 if (textElement) {
-  let texts = ["Boundaries", "Stress", "Limit", "Borders"];
+  let texts = ["Boundaries", "Stress", "Limit", "Obstruction", "Borders"];
   let index = 0;
 
   function swapText() {
