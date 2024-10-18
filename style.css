@@ -685,6 +685,17 @@ nav .sm_ul {
   width: 90px;
 }
 
+.last2 {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 38rem;
+}
+
+.policy-section {
+  text-align: center;
+}
+
 
 
 
@@ -724,6 +735,10 @@ nav .sm_ul {
   body {
     overflow-x: hidden !important;
   }
+
+  .copy-icon img {
+    width: 60px !important;
+}
 
   .main {
     overflow-x: hidden !important;
