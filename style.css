@@ -693,11 +693,8 @@ nav .sm_ul {
 }
 
 .policy-section {
-  word-wrap: break-word; /* or */
   padding-top: 8rem;
   padding-left: 10rem;
-  white-space: normal;
-  word-break: break-all;
 }
 
 .bold {
@@ -797,12 +794,12 @@ nav .sm_ul {
     justify-content: start;
     position: absolute;
     gap: 0;
-    padding: 0;
+    padding: 20px;
     top: 100%;
-    height: 32vh;
+    height: 40vh;
     z-index: 999;
-    left: 20px;
-    width: 100%;
+    left: 0;
+    width: 100% !important;
     background-color: #fff;
   }
 
