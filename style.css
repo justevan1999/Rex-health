@@ -756,7 +756,7 @@ nav .sm_ul {
     padding: 15px !important;
     word-break: normal !important;
     text-align: justify !important;
-    padding-top: 5.5rem;
+    padding-top: 5.5rem !important;
   } 
 
   nav {
