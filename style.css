@@ -752,6 +752,11 @@ nav .sm_ul {
     overflow-x: hidden !important;
   }
 
+  .policy-section {
+    padding: 15px;
+    padding-top: 5.5rem;
+  } 
+
   nav {
     padding-right: 15px;
     padding-left: 20px;
