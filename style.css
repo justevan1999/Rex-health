@@ -772,6 +772,7 @@ nav .sm_ul {
 
   nav .nav_btns {
     display: none;
+    gap: 3rem;
   }
 
   nav .logos img:nth-child(2) {
